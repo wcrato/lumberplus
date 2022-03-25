@@ -1,0 +1,725 @@
+html,
+body{
+	width:100%;
+	overflow-x:hidden;
+}
+
+.eael-hot-spot-wrap{
+	z-index: 1000;
+}
+
+.grecaptcha-badge {
+	display: none;
+}
+/*
+.mcmp_recalc_price_row{
+	display: none;
+}
+
+.woocommerce-price-suffix{
+	display: none;
+}
+*/
+
+.elementor-icon-list-item::before{
+	display:none;
+}
+
+.woocommerce-price-suffix {
+  display: none;
+}
+.single-product .product-price-wrap .woocommerce-price-suffix {
+  display: block !important;
+}
+
+.woo_product_image{
+	background-color: #dddddd !important;
+}
+
+
+.widget-title::before{
+	background: #f7b02c !important;
+}
+
+.widget-title_inner{
+	color: #f7b02c;
+}
+/*
+.single_product{
+	padding-top: 80px;
+}
+*/
+/*
+.wgl-container{
+	padding-top: 80px;
+}
+*/
+/*.woocommerce{
+	padding-top: 80px;
+}*/
+
+
+/* Fix arrow carousel */
+/* Begin - Selector */
+img.link-car-active{
+    color: #232323;
+    border-radius: 100px 100px 100px 100px;
+    border-style: solid;
+    border-color: #f7b02c;
+    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 0 0 1px #f7b02c;
+}
+
+#link-car img{
+    /*padding: 6px;
+    border: 1px solid gray;*/
+    box-sizing: border-box;
+    color: #232323;
+    padding: 10px 10px 10px 10px;
+}
+
+#link-car img:hover{
+		color: #232323;
+		border-radius: 100px 100px 100px 100px;
+		border-style: solid;
+		/*border-width: 1px 1px 1px 1px;*/
+		border-color: #707070;
+		padding: 10px 10px 10px 10px;
+		transition: box-shadow .2s;
+		/*box-shadow: 0 0 11px rgba(33,33,33,.2);*/
+		box-shadow: inset 0 0 0 1px gray;
+}
+
+@media only screen and (max-width: 600px) {
+	#link-car img:hover{
+		color: #232323;
+		border-radius: 100px 100px 100px 100px;
+		border-style: solid;
+		/*border-width: 1px 1px 1px 1px;*/
+		border-color: #f7b02c;
+		padding: 10px 10px 10px 10px;
+		transition: box-shadow .2s;
+		/*box-shadow: 0 0 11px rgba(33,33,33,.2);*/
+		box-shadow: inset 0 0 0 1px #f7b02c;
+	}
+}
+
+#link-car img:active{
+    color: #232323;
+    border-radius: 100px 100px 100px 100px;
+    border-style: solid;
+    border-color: #f7b02c;
+    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 0 0 1px #f7b02c;
+}
+
+/* End - Selector */
+
+
+@media (min-width: 1200px) {
+.wgl-carousel .slick-prev, .wgl-carousel .slick-next{
+	border: thin solid #232323;
+}
+.wgl-carousel .slick-next::before, .wgl-carousel .slick-prev::before{
+    content: '' !important;
+}
+.wgl-carousel .slick-next::after, .wgl-carousel .slick-prev::after{
+	border: 0;
+}
+/*
+.postid-9545 .slick-slider .slick-list{
+		transform: none !important;
+}
+	
+.slick-slider .slick-list{
+	transform: scale(0.75) !important;
+}
+	
+.page-id-5625 .slick-slider .slick-list{
+		transform: scale(1) !important;
+}
+*/
+}
+
+/* BEGIN - FUNNEL SECTION */
+
+#funnel-section{
+	display: none;
+}
+
+/* END - FUNNEL SECTION */
+
+
+@media (min-width: 1200px) {
+.primary-nav>div>ul, .primary-nav>ul, .sitepress_container > .wpml-ls li, .primary-nav ul li.mega-menu-links > ul > li {
+    font-size: 0.9vw !important;
+}
+	.sub-menu{
+		font-size: 0.9vw !important;
+	}
+	
+	.primary-nav ul li ul, .primary-nav ul li div.mega-menu-container {
+		min-width: 200px;
+	}
+	
+	.primary-nav ul li ul li > a > span::before {
+		width: 15px;
+	}
+	.wgl-container{
+		padding-top: 80px;
+	}
+}
+
+@media (min-width: 1800px) {
+.primary-nav>div>ul, .primary-nav>ul, .sitepress_container > .wpml-ls li, .primary-nav ul li.mega-menu-links > ul > li {
+    font-size: 0.9vw !important;
+}
+	.sub-menu{
+		font-size: 0.9vw !important;
+	}
+	
+	.primary-nav ul li ul, .primary-nav ul li div.mega-menu-container {
+		min-width: 280px;
+	}
+	.primary-nav ul li ul li > a > span::before {
+		width: 15px;
+	}
+	
+	.wgl-container{
+		padding-top: 80px;
+	}
+}
+
+.pum-theme-5188 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close{
+	background-color: #f6b015;
+}
+
+.gform_title{
+	display: none;
+}
+
+/*--- 2 Column Form Styles Start ---*/
+
+#left {
+    width: 47%;
+    float: left;
+    margin-right:6%;
+}
+ 
+#right {
+    width: 47%;
+    float: left;
+}
+ 
+.clearfix:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+ 
+.clearfix {
+    display:block;
+}
+
+/*--- 2 Column Form Styles End ---*/
+
+.wgl-header-row .wgl-header-row-section_middle {
+	background-color: #000000 !important;
+}
+
+/* Added  by Lianni*/
+/* Single product title*/
+.woocommerce div.product .product_title {
+    font-size: 30px;
+}
+
+.elementor-kit-27 h1 {
+    color: var( --e-global-color-secondary );
+    font-family: "Montserrat", Sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* BEGIN - Fix white hover links */
+a:hover:not([role="button"]){
+	color: #f7b02c !important;
+}
+/*
+.postid-21467 a:hover{
+	color: #f7b02c !important;
+}
+
+.mega-menu-item > .textwidget a:hover{
+	color: #f7b02c !important;
+}
+*/
+/* END - Fix white hover links */
+
+p {font-family: "montserrat",sans-serif; font-weight: medium; }
+
+/* Beg: LINKS TEL: Footer */
+div.elementor-element-27adb01 a{
+	color: white !important;
+}
+
+div.elementor-element-6ddf7bc a{
+	color: white !important;
+}
+/* End: LINKS TEL: Footer */
+
+/* Begin - Overlays */
+#hw-overlay, #pvc-overlay, #cps-overlay{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#close-overlay{
+    position: relative;
+    float: right;
+    top: 5px;
+    right: 10px;
+    color:white;
+}
+#list-overlay{
+    font-weight: 600;
+}
+
+#btn-overlay{
+    margin-left: 25px;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: #f7b02c;
+}
+
+#btn-overlay:hover{
+    background-color: black;
+    color: white;
+}
+
+#tit-overlay{
+    padding: 25px 0 0 25px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+/* End - Overlays */
+
+/* Begin - Top menu */
+#tel-top-menu a:hover{
+	color:white !important;
+}
+/* End - Top menu */
+
+/*
+ * Begin - Hubspot Form
+*/
+.hs-form.hs-lumberplus{
+	box-sizing: border-box;
+}
+
+.hs-form.hs-lumberplus label{
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	
+}
+
+.hs-form.hs-lumberplus input[type=text], .hs-form.hs-lumberplus input[type=email], 
+.hs-form.hs-lumberplus select, .hs-form.hs-lumberplus textarea, .hs-form.hs-lumberplus input[type=tel], .hs-form.hs-lumberplus input[type=number] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+	background-color: white;
+}
+
+.hs-form.hs-lumberplus .hs-form-radio label{
+  display: flex;
+	align-items: center;
+}
+
+.hs-form.hs-lumberplus .hs-form-radio span{
+  padding-left: 5px;
+}
+
+.hs-form.hs-lumberplus ul{
+	display: inline-flex;
+}
+
+.hs-form.hs-lumberplus ul > li{
+	padding: 0 20px 0 0;
+}
+
+.hs-form.hs-lumberplus input[type=submit]{
+	float: right;
+	border-style: solid;
+	width: 49%;
+  border-width: 1px;
+  border-radius: 2px 2px 2px 2px;
+	border-color: #f7b02c;
+	color: black;
+	background-color: #f7b02c;
+}
+
+.hs-form.hs-lumberplus input[type=submit]:hover{
+	color: white;
+	border-color: black;
+	background-color: black;
+}
+
+.hs-form.hs-lumberplus .hs-btn-exit{
+	box-sizing: border-box;
+	float: left;
+	padding: 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	width: 49%;
+	border-style: solid;
+  border-width: 1px;
+  border-radius: 2px 2px 2px 2px;
+	color: black;
+	background-color: #f7b02c00;
+}
+
+.hs-form.hs-lumberplus .hs-btn-exit:hover{
+	color: white;
+	background-color: black;
+}
+
+/*
+ * HS Form Email
+*/
+.hs-form.hs-lumberplus-mail{
+	border: 1px solid #f7b02c;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hs-form.hs-lumberplus-mail .hs-email{
+	width: 70%;
+}
+
+.hs-form.hs-lumberplus-mail .hs-email div{
+	margin: 0 20px 0 0;
+}
+
+.hs-form.hs-lumberplus-mail .hs-email input{
+	border-bottom: 1px solid black;
+	font-weight: 600;
+	width: 100%;
+}
+
+.hs-form.hs-lumberplus-mail .hs-email ul{
+	padding: 0;
+	margin: 0;
+}
+
+
+.hs-form.hs-lumberplus-mail .hs-email ul li{
+	padding: 0;
+	margin: 0;
+}
+
+.hs-form.hs-lumberplus-mail .hs-email ul li label{
+	padding: 0;
+	margin: 0;
+	font-size: 0.8rem;
+}
+
+.hs-form.hs-lumberplus-mail .hs-submit{
+	width: 30%;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+}
+
+.hs-form.hs-lumberplus-mail .hs-submit input{
+	background-color: black;
+	color: white;
+}
+
+.hs-form.hs-lumberplus-mail .hs-submit input:hover{
+	background-color: #f7b02c;
+	color: black;
+	border: 0;
+}
+
+@media (max-width: 800px) {
+  .hs-form.hs-lumberplus-mail{
+    flex-direction: column;
+  }
+	
+	.hs-form.hs-lumberplus-mail .hs-email{
+		width: 100%;
+	}
+	.hs-form.hs-lumberplus-mail .hs-email div {
+		margin: 0;
+	}
+	
+	.hs-form.hs-lumberplus-mail .hs-submit{
+		width: 100%;
+		padding-top: 20px;
+	}
+}
+
+/*
+ * End - Hubspot Form
+*/
+
+/*
+	Tabs Template
+*/
+#tabs-template .eael-tab-inline-icon{
+	padding: 0 15% 0 25%;
+}
+
+/*
+	Advanced Tabs Hardwood
+
+.eael-tab-top-icon{
+	box-sizing: border-box;
+	padding: 0 15% 0 15% !important;
+}
+
+.eael-tab-top-icon{
+	margin: 0 50px 0 50px !important;
+}*/
+
+
+@media only screen and (max-width: 600px) {
+	#tabs-template .eael-tab-inline-icon{
+		padding: 0 5% 0 5%;
+		display: flex;
+	}
+	
+	#tabs-template .eael-tab-inline-icon li{
+		flex: auto;
+		flex-direction: row;
+		width: 50%;
+		margin: 0;
+}
+	
+	.wgl-tabs.tabs_align-center .wgl-tabs_headings {
+    justify-content: flex-start;
+}
+	
+	.wgl-tabs_headings{
+		flex-wrap: wrap;
+/* 		margin: 0 10px 0 10px;
+		width: 100%;
+		padding-right: 20px; */
+		
+		padding: 0 10px 0 10px;
+	}
+	
+	.wgl-tabs_headings h4{
+/* 		width: 50%; */
+		flex: 0 0 33.333333%;
+		margin: 0;
+	}
+	.wgl-tabs_header{
+		margin: 0;
+	}
+	
+	.elementor-element-8b134d4 .wgl-tabs_headings h4, .elementor-element-e435823 .wgl-tabs_headings h4,.elementor-element-f7fc252 .wgl-tabs_headings h4{
+		flex: 0 0 50%;
+		margin: 0;
+	}
+}
+
+/* Fix Image Carousel */
+.elementor-image-carousel {
+    width: 90px !important;
+}
+/* Fix Image Carousel */
+
+.eael-feature-list-title{
+	line-height: 25px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+	/* Hardwood Line height */
+	.eael-feature-list-title{
+    line-height: 15px !important;
+		padding: 10px 0 0 0;
+	}
+	.wgl-carousel .slick-arrow{
+		margin-top: 20px;
+	}
+}
+
+/* LPs */
+/* Inventory FL */
+.elementor-29588 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+
+/* Inventory TX */
+.elementor-29589 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+
+/* Best-Prices FL */
+.elementor-29584 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+
+/* Best-Prices TX */
+.elementor-29585 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+
+/* Fast-Shipping FL */
+.elementor-29586 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+
+/* Fast-Shipping TX */
+.elementor-29587 .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+    padding: 0 !important;
+}
+/* LPs - End */
+
+/* Megamenu + */
+#mega-menu-wrap-main_menu #mega-menu-main_menu > li:nth-child(2) > a.mega-menu-link::after, #mega-menu-wrap-main_menu #mega-menu-main_menu > li:nth-child(3) > a.mega-menu-link::after {
+    content: '\f132';
+    font-family: dashicons;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0 0 0 6px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotate(0);
+    color: inherit;
+    position: relative;
+    background: 0 0;
+    height: auto;
+    width: auto;
+    right: auto;
+    line-height: inherit;
+}
+
+@media only screen and (max-width: 768px){
+#mega-menu-wrap-main_menu #mega-menu-main_menu li:nth-child(2) > a.mega-menu-link::after, #mega-menu-wrap-main_menu #mega-menu-main_menu li:nth-child(3) > a.mega-menu-link::after {
+    float: right;
+}
+}
+
+
+
+
+
+/*
+ * Begin - Hubspot Form PopUp
+*/
+.hs-lumberplus-pup{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.hs-lumberplus-pup input[type=text], .hs-lumberplus-pup input[type=email], .hs-lumberplus-pup input[type=number] {
+  width: 100%;
+  padding: 5px 20px !important;
+  margin: 8px 0 !important;
+  display: inline-block !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+	background-color: white !important;
+	text-align: center !important;
+}
+
+.hs-lumberplus-pup input[type=submit]{
+	border-style: solid;
+	width: 49%;
+  border-width: 1px;
+	border-color: black;
+  border-radius: 5px 5px 5px 5px;
+	color: white;
+	background-color: black;
+	margin: 8px 0 !important;
+}
+
+.hs-lumberplus-pup input[type=submit]:hover{
+	color: black !important;
+	background-color: #f7b02c !important;
+}
+
+/*
+ * BLOG
+ * */
+
+.wp-block-image .alignleft{
+    margin: .5em 0 .5em 0 !important;
+}
+
+.elementor-posts .elementor-post__thumbnail__link{
+    aspect-ratio: 16 / 9;
+}
+.elementor-posts .elementor-post__thumbnail {
+    height: 100%;
+    padding-bottom: 0 !important;
+}
+
+.elementor-post__thumbnail img {
+    height: 100% !important;
+    object-fit: cover;
+}
+#postContent p {
+	line-height: 2em;
+}
+#sidebarBlog {
+	position:relative;
+	overflow:visible;
+}
+
+/*
+ * END-BLOG
+ *
+
+.elementor-32202 .elementor-element.elementor-element-1eb6aec9:not(.elementor-motion-effects-element-type-background), .elementor-32202 .elementor-element.elementor-element-1eb6aec9 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-size: cover !important;
+	background-position: center !important;
+}*/
+
+/*
+ * FAQ*/
+
+.sp-eap-container > .sp-easy-accordion > .sp-ea-single > .ea-header > a:hover {
+    color: #444 !important;
+}
+
+.ea-body > .sp-eap-container > .sp-easy-accordion > .sp-ea-single > .ea-header > a:hover {
+    color: #f7b02c !important;
+}
+
+.ea-expand-icon{
+	float: right;
+}
+
